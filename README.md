@@ -20,8 +20,15 @@ This challenge consists in creating a timed quiz with a highscore board:
 
 ## Link to deployed application
 
-link: ...
+link: https://kikolock.github.io/Quiz-test-JS/
 
-![My Remote Image](...)
+## Start quiz
+![My Remote Image](https://github.com/Kikolock/Quiz-test-JS/blob/main/assets/images/Quiz%20challenge%20start.JPG)
+
+## Questions
+![My Remote Image](https://github.com/Kikolock/Quiz-test-JS/blob/main/assets/images/Quiz%20challenge%20questions.JPG)
+
+## High Score
+![My Remote Image](https://github.com/Kikolock/Quiz-test-JS/blob/main/assets/images/Quiz%20challenge%20high%20score.JPG)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
