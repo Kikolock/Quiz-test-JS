@@ -23,7 +23,7 @@ var questionArray = [
         answer: "2"
     },
     {
-        text: "What of the above operators is a AND sign?",
+        text: "What of the operators is a AND sign?",
         choice1: "+",
         choice2: "&",
         choice3: "&&",
@@ -31,31 +31,31 @@ var questionArray = [
         answer: "3"
     },
     {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
+        text: "What would be the result of 3+2+'7'",
+        choice1: "57",
+        choice2: "39",
+        choice3: "12",
+        choice4: "None of the above",
+        answer: "1"
     },
     {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
+        text: "A very useful tool for used during development and debugging for printing content to the debugger is:",
+        choice1: "JavaScript",
+        choice2: "Terminal / Git bash",
+        choice3: "for loops",
+        choice4: "Console log",
+        answer: "4"
     },
     {
-        text: "Question 1",
-        choice1: "Choice 1",
-        choice2: "Choice 2",
-        choice3: "Choice 3",
-        choice4: "Choice 4",
-        answer: "3"
+        text: "Which of the following function of Number object returns the number's value",
+        choice1: "toString()",
+        choice2: "valueOf()",
+        choice3: "toLocaleString()",
+        choice4: "toPrecision()",
+        answer: "2"
     },
     {
-        text: "What of the above options stands for OR operator ?",
+        text: "What of the options stands for OR operator ?",
         choice1: "+",
         choice2: "&",
         choice3: "&&",
@@ -268,7 +268,7 @@ var submitInitials = function (event) {
 var clearFeedback = function (event) {
     var targetEl = event.target;
     var answer = targetEl.getAttribute("choice-number");
-    
+
     if (answer) {
         var feedbackMsgEl = document.querySelector("#feedback-message");
         feedbackMsgEl.textContent = "";
